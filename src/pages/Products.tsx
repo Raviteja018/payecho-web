@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Fingerprint, CreditCard, RefreshCw, Layers, Landmark, Briefcase, Search } from 'lucide-react';
+import { ArrowRight, Fingerprint, ShieldCheck, CreditCard, RefreshCw, Layers, Landmark, BookOpen, Briefcase, Globe, Search } from 'lucide-react';
 
 export default function Products() {
   const [filter, setFilter] = useState<'ALL' | 'BANKING' | 'UTILITY' | 'TRAVEL' | 'BUSINESS'>('ALL');

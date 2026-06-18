@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gov-blue: #0f2942;
+  --color-gov-blue-dark: #071524;
+  --color-gov-saffron: #ff9933;
+  --color-gov-green: #138808;
+  --color-gov-maroon: #800020;
+  --color-gov-gold: #c5a059;
+  --color-gov-gold-light: #fdfaf2;
+  
+  --animate-marquee: marquee 35s linear infinite;
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+/* Custom styles for government website details */
+@layer utilities {
+  .tricolor-stripe {
+    background: linear-gradient(to right, #ff9933 33.3%, #ffffff 33.3%, #ffffff 66.6%, #138808 66.6%);
+  }
+  
+  .govt-marquee-container {
+    background: #f1f5f9;
+    border-top: 1px solid #cbd5e1;
+    border-bottom: 1px solid #cbd5e1;
+  }
+}
+
+/* Accessibility styling */
+.font-scale-sm * {
+  font-size: 0.95rem;
+}
+.font-scale-lg * {
+  font-size: 1.08rem;
+}
+
+/* Swiper-like carousel visual adjustments */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

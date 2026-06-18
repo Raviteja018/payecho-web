@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Phone, Award, CheckCircle, Smartphone, Fingerprint, CreditCard, Briefcase, Landmark } from 'lucide-react';
+import { ArrowRight, Phone, Award, CheckCircle, Fingerprint, CreditCard, Briefcase, Landmark } from 'lucide-react';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);

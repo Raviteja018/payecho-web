@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Phone, MapPin, Download, Calculator, Mail } from 'lucide-react';
+import {  Phone, MapPin, Download, Mail } from 'lucide-react';
 import payechoLogo from '../assets/payecho_logo.png';
 
 export default function Footer() {

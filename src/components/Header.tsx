@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Phone, Globe, User, ShieldCheck, Menu, X, Landmark } from 'lucide-react';
+import { Phone, Globe, User, Menu, X, Landmark } from 'lucide-react';
 import payechoLogo from '../assets/payecho_logo.png';
 
 interface HeaderProps {
